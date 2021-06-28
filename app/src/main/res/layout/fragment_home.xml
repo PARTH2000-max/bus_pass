@@ -364,6 +364,7 @@
                     android:layout_marginRight="16dp"
                     android:layout_marginBottom="16dp"
                     app:cardCornerRadius="8dp"
+                    android:id="@+id/Card_passRate"
                     app:cardElevation="8dp">
 
                     <LinearLayout
