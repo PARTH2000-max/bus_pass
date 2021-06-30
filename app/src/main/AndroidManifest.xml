@@ -23,9 +23,11 @@
         <activity android:name=".header_act" />
         <activity android:name=".Login" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".applynow" />
+        <activity android:name=".Renewal"/>
         <activity android:name=".IntroductoryActivity"/>
-        <activity android:name=".Renewal">
+        <activity android:name=".apply_pass"/>
+        <activity android:name=".applynow">
+
         <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

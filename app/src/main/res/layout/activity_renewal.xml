@@ -26,7 +26,6 @@
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-
                     android:layout_height="match_parent"
                     android:layout_marginBottom="10dp"
                     android:orientation="vertical"
@@ -75,6 +74,24 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
+                            android:text="Select Date"
+                            android:textColor="#000"
+                            android:textSize="15dp">
+                        </TextView>
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/dateview"
+                            android:text="choose date"
+                            android:focusable="false"
+                            android:layout_marginTop="10dp"
+                            android:inputType="none"></EditText>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
                             android:text="Adhare No"
                             android:textColor="#000"
                             android:textSize="15dp">
@@ -84,7 +101,7 @@
                             android:id="@+id/proname"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="15dp"
+                            android:layout_marginTop="10dp"
                             android:layout_marginBottom="10dp"
                             android:background="@drawable/edit_text"
                             android:drawableLeft="@drawable/ic_person"
@@ -118,8 +135,6 @@
                             android:entries="@array/pass_type"
                             android:padding="3dp"
                             android:paddingLeft="10dp"
-                            android:enabled="false"
-                            android:clickable="false"
                             android:paddingTop="10dp"
                             android:paddingEnd="12dp"
                             android:paddingRight="12dp"
@@ -243,8 +258,6 @@
                             android:id="@+id/spinner1"
                             android:layout_width="233dp"
                             android:layout_height="wrap_content"
-                            android:enabled="false"
-                            android:clickable="false"
                             android:layout_weight="1"
                             android:entries="@array/bus_type"
                             android:padding="3dp"
