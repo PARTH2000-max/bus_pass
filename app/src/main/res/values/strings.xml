@@ -54,9 +54,9 @@
     <string-array name="period">
         <!--<item>Choose Period</item>-->
         <item>1 month</item>
+        <item>3 month</item>
         <item>6 month</item>
         <item>1 year</item>
-        <item>2 year</item>
     </string-array>
     <string name="title_activity_main2">MainActivity2</string>
     <string name="tab_text_1">Tab 1</string>
