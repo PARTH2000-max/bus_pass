@@ -14,7 +14,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BusPass"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Renewal"></activity>
         <activity android:name=".PassRates_Activity" />
         <activity android:name=".MainActivity3" />
         <activity
@@ -25,8 +24,9 @@
         <activity android:name=".Login" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".applynow" />
-        <activity android:name=".IntroductoryActivity">
-            <intent-filter>
+        <activity android:name=".IntroductoryActivity"/>
+        <activity android:name=".Renewal">
+        <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
