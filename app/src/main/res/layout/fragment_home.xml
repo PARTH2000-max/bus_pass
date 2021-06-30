@@ -15,7 +15,7 @@
         android:id="@+id/tv"/>-->
 
 
-    <LinearLayout
+    <!--<LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -64,11 +64,11 @@
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
-    </LinearLayout>
+    </LinearLayout>-->
 
 
     <!--Wallet Amount linear layout and 1 card view inside it-->
-    <LinearLayout
+    <!--<LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="25dp"
@@ -119,11 +119,11 @@
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
-    </LinearLayout>
+    </LinearLayout>-->
 
 
     <!--try-->
-    <LinearLayout
+    <!--<LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="25dp"
@@ -174,7 +174,7 @@
 
 
 
-        <!--Wallet Amount linear layout and 1 card view inside it-->
+        &lt;!&ndash;Wallet Amount linear layout and 1 card view inside it&ndash;&gt;
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -216,7 +216,7 @@
             </androidx.cardview.widget.CardView>
         </LinearLayout>
 
-    </LinearLayout>
+    </LinearLayout>-->
 
 
     <!--bus timetable,form renewal, etc icon's linear layout and  relative and gridlayouts inside it-->
