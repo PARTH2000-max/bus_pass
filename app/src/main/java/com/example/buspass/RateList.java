@@ -15,7 +15,7 @@ public class RateList extends AppCompatActivity {
     private ExpandableListView expandablelistview;
     HashMap<String, List<String>> listchild;
     List<String> listHeader;
-    CustomeAdopter customAdopter;
+   // CustomeAdopter customAdopter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,9 +29,9 @@ public class RateList extends AppCompatActivity {
 
         listHeader = new ArrayList<String>(listchild.keySet());
 
-        customAdopter = new CustomeAdopter(this, listchild, listHeader);
+     /*   customAdopter = new CustomeAdopter(this, listchild, listHeader);
         expandablelistview.setAdapter(customAdopter);
-
+*/
 
 
 
