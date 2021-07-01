@@ -28,18 +28,20 @@
         <activity android:name=".apply_pass"/>
         <activity android:name=".applynow">
 
-        <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".fetch_details" />
         <activity android:name=".Register" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.BusPass.NoActionBar"
-            android:windowSoftInputMode="adjustPan" />
+            android:windowSoftInputMode="adjustPan">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
 
         <meta-data
             android:name="preloaded_fonts"
