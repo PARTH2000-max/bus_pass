@@ -59,14 +59,13 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
                     }
                 });
 
-        loadFragment(new HomeFragment());
+        loadFragment(new ProfileFragment());
 
         drawerLayout = findViewById(R.id.container);
         navigationView = findViewById(R.id.nav_view);
 
-
-        ConnectivityManager connectivityManager =(ConnectivityManager)
-                getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);
+    ConnectivityManager connectivityManager = (ConnectivityManager)
+        getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);
 
         NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
 
