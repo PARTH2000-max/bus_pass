@@ -42,6 +42,9 @@ public class Renewal extends AppCompatActivity {
 
                 DatePickerDialog datePickerDialog = new DatePickerDialog(Renewal.this,onDateSetListener,year,month,day);
 
+
+                datePickerDialog.getDatePicker().setMinDate(System.currentTimeMillis() - 1000);
+
                 datePickerDialog.show();
             }
         });
