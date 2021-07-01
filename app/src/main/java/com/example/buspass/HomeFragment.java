@@ -27,7 +27,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import tabpackage.Timetable;
 
 public class HomeFragment extends Fragment implements View.OnClickListener {
-    private CardView Card_passRate,cardrenewal,cardepass,cardtimetable;
+    private CardView Card_passRate,cardrenewal,cardepass,cardtimetable,cardwallet;
 
     @Nullable
     @org.jetbrains.annotations.Nullable
@@ -49,11 +49,13 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
         cardtimetable = view.findViewById(R.id.cardtt);
 
+        cardwallet = view.findViewById(R.id.cardwallet);
+
         Card_passRate.setOnClickListener(this);
         cardrenewal.setOnClickListener(this);
         cardepass.setOnClickListener(this);
         cardtimetable.setOnClickListener(this);
-
+        cardwallet.setOnClickListener(this);
     }
 
     @Override
@@ -79,6 +81,13 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
             case R.id.cardtt:
                 Intent intent3 = new Intent(getActivity(), Timetable.class);
                 startActivity(intent3);
+                break;
+
+            case R.id.cardwallet:
+                Intent intent4 = new Intent(getActivity(),Wallet.class);
+                startActivity(intent4);
+                break;
+
             default:
                 break;
 

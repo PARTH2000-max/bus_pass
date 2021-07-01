@@ -44,7 +44,7 @@ public class Wallet extends AppCompatActivity implements PaymentResultListener {
 
                 try {
 
-                    object.put("name","Android Coding");
+                    object.put("name","E-Pass");
 
                     object.put("description","Test Payment");
 
