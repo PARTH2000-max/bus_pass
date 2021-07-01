@@ -5,13 +5,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".RateList">
 
-    <TextView
+    <ExpandableListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="RateList"
-        android:gravity="center"/>
+        android:id="@+id/Expandlist_item"
+        android:indicatorLeft="?android:attr/expandableListPreferredChildIndicatorLeft"/>
+
 
 </LinearLayout>
