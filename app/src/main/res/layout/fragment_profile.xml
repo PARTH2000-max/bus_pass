@@ -10,10 +10,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbars="vertical"
-        tools:ignore="UselessParent">
+        >
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:orientation="vertical">
 
                             <RelativeLayout
@@ -24,7 +24,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="250dp"
                                     android:src="@drawable/bg_image"
-                             tools:ignore="ContentDescription" />
+                                    />
 
                                 <de.hdodenhof.circleimageview.CircleImageView
                                     android:id="@+id/profileImage"
@@ -34,10 +34,9 @@
                                     android:layout_marginTop="60dp"
                                     android:layout_gravity="center"
                                     android:scaleType="centerCrop"
-                                    android:src="@drawable/amts" />
+                                    android:src="@drawable/bps" />
 
                             </RelativeLayout>
-
 
       <LinearLayout
                     android:layout_width="match_parent"
@@ -80,8 +79,7 @@
                         android:text="@string/personal_information"
                         android:textColor="@color/purple_500"
                         android:textSize="18sp"
-                        android:layout_marginLeft="5dp"
-                        tools:ignore="UnusedAttribute" />
+                        android:layout_marginLeft="5dp" />
 
                     <TextView
                         android:id="@+id/editpro"
@@ -98,7 +96,7 @@
                         android:text="@string/edit"
                         android:textColor="@color/purple_500"
                         android:textSize="18sp"
-                        tools:ignore="RtlCompat,UnusedAttribute,UseCompatTextViewDrawableXml" />
+                        tools:ignore="RtlCompat,UseCompatTextViewDrawableXml" />
 
                     <TextView
                         android:id="@+id/updatepro"
@@ -127,8 +125,8 @@
 
 
            <EditText
-            android:id="@+id/proname"
-            android:layout_width="match_parent"
+       android:id="@+id/proname"
+       android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:drawablePadding="12dp"
        android:paddingStart="12dp"
@@ -141,10 +139,8 @@
        android:paddingTop="10dp"
        android:paddingBottom="10dp"
        android:background="@drawable/edit_text"
-       android:hint="@string/name"
-       android:drawableLeft="@drawable/ic_person"
-               tools:ignore="Autofill"
-               android:drawableStart="@drawable/ic_person" />
+       android:hint="Name"
+       android:drawableLeft="@drawable/ic_person"/>
 
 
    <EditText
@@ -163,18 +159,16 @@
        android:background="@drawable/edit_text"
        android:layout_marginTop="10dp"
        android:hint="Email"
-       android:drawableLeft="@drawable/ic_email"
-       tools:ignore="Autofill,HardcodedText,TextFields"
-       android:drawableStart="@drawable/ic_email" />
+       android:drawableLeft="@drawable/ic_email" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="gender:"
-                    android:layout_marginTop="20dp"
-                    android:textSize="15sp"
-                    android:textColor="#000"
-                    tools:ignore="HardcodedText" />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:text="gender:"
+               android:layout_marginTop="20dp"
+               android:textSize="15dp"
+               android:textColor="#000"
+               ></TextView>
 
            <RadioGroup
                android:id="@+id/radioGroup"
@@ -188,8 +182,7 @@
                android:padding="3dp"
                android:paddingLeft="10dp"
                android:paddingTop="10dp"
-               tools:ignore="RtlSymmetry,UnusedAttribute"
-               android:paddingStart="10dp">
+               >
 
 
                <RadioButton
@@ -205,7 +198,7 @@
                    android:buttonTint="#6200EE"
                    android:scaleX="1.2"
                    android:scaleY="1.2"
-                   android:text="@string/male"
+                   android:text="Male"
                    android:textColor="@color/black"/>
 
                <RadioButton
@@ -220,7 +213,7 @@
                    android:buttonTint="#6200EE"
                    android:scaleX="1.2"
                    android:scaleY="1.2"
-                   android:text="@string/female"
+                   android:text="Female"
                    android:textColor="@color/black"/>
 
            </RadioGroup>
@@ -243,9 +236,7 @@
        android:layout_marginTop="10dp"
        android:background="@drawable/edit_text"
        android:hint="Phone No"
-       android:drawableLeft="@drawable/ic_phone"
-       tools:ignore="Autofill,HardcodedText,TextFields"
-       android:drawableStart="@drawable/ic_phone" />
+       android:drawableLeft="@drawable/ic_phone" />
 
 
    <EditText
@@ -264,8 +255,7 @@
        android:background="@drawable/edit_text"
        android:layout_marginTop="10dp"
        android:hint="Address"
-       android:drawableLeft="@drawable/ic_home"
-       tools:ignore="Autofill,HardcodedText,RtlHardcoded" />
+       android:drawableLeft="@drawable/ic_home" />
 
 
    <EditText
@@ -284,8 +274,7 @@
        android:background="@drawable/edit_text"
        android:layout_marginTop="10dp"
        android:hint="City"
-       android:drawableLeft="@drawable/ic_state"
-       tools:ignore="Autofill,HardcodedText,RtlHardcoded" />
+       android:drawableLeft="@drawable/ic_state" />
 
 
    <EditText
@@ -303,8 +292,7 @@
        android:background="@drawable/edit_text"
        android:layout_marginTop="10dp"
        android:hint="State"
-       android:drawableLeft="@drawable/ic_state"
-       tools:ignore="Autofill,HardcodedText,RtlHardcoded" />
+       android:drawableLeft="@drawable/ic_state" />
 
     <Button
         android:id="@+id/btn_update"
@@ -317,7 +305,7 @@
         android:textSize="16sp"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
-        tools:ignore="HardcodedText" />
+        />
 
        </LinearLayout>
                     </androidx.cardview.widget.CardView>
