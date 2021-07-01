@@ -14,32 +14,34 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BusPass"
         android:usesCleartextTraffic="true">
-        <activity
-            android:name="tabpackage.Timetable"
-            android:label="@string/title_activity_timetable"
-            android:theme="@style/Theme.BusPass.NoActionBar"></activity>
-        <activity
-            android:name=".tab_activity"
-            android:label="@string/title_activity_tab"
-            android:theme="@style/Theme.BusPass.NoActionBar" />
         <activity android:name=".PassRates_Activity" />
+        <!--<activity android:name=".MainActivity3"
+            tools:ignore="MissingClass" />-->
         <activity
             android:name=".MainActivity2"
             android:label="@string/title_activity_main2"
             android:theme="@style/Theme.BusPass.NoActionBar" />
-        <activity android:name=".Renewal" />
-        <activity android:name=".applynow" />
+        <!--<activity android:name=".header_act" />
+        <activity android:name=".Login" />
+        <activity android:name=".LoginActivity" />-->
+        <activity android:name=".Renewal"/>
+        <activity android:name=".IntroductoryActivity"/>
+        <!--<activity android:name=".apply_pass"/>-->
+        <activity android:name=".applynow">
+
+
+        </activity>
         <activity android:name=".fetch_details" />
+        <!--<activity android:name=".Register" />-->
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.BusPass.NoActionBar"
-            android:windowSoftInputMode="adjustPan" />
-        <activity android:name=".IntroductoryActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:windowSoftInputMode="adjustPan">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
 
         <meta-data
