@@ -25,7 +25,7 @@ public class IntroductoryActivity extends AppCompatActivity {
 
                 try {
                     sleep(5000);
-                    Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), tab_activity.class);
                     startActivity(intent);
                     finish();
                     super.run();

@@ -106,12 +106,6 @@ public class LoginTabFragment extends Fragment implements View.OnClickListener {
     }
 
 
-    private void switchonRegister() {
-
-        Intent i = new Intent(getActivity(), Register.class);
-        startActivity(i);
-    }
-
     @Override
     public void onStart() {
         super.onStart();

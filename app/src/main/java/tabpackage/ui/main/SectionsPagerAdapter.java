@@ -1,4 +1,4 @@
-package com.example.buspass.ui.main;
+package tabpackage.ui.main;
 
 import android.content.Context;
 
@@ -12,6 +12,11 @@ import com.example.buspass.LoginTabFragment;
 import com.example.buspass.R;
 import com.example.buspass.RegTabFragment;
 
+import tabpackage.Amts;
+import tabpackage.Brts;
+import tabpackage.St;
+
+
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
  * one of the sections/tabs/pages.
@@ -19,7 +24,7 @@ import com.example.buspass.RegTabFragment;
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @StringRes
-    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2};
+    private static final int[] TAB_TITLES = new int[]{R.string.tab_second_1, R.string.tab_second_2,R.string.tab_second_3};
     private final Context mContext;
 
     public SectionsPagerAdapter(Context context, FragmentManager fm) {
@@ -34,15 +39,22 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         switch (position)
         {
             case 0:
-                fragment = new LoginTabFragment();
+                fragment = new Amts();
 
                 break;
             case 1:
-                fragment = new RegTabFragment();
+                fragment = new Brts();
+
+                break;
+
+
+            case 2:
+                fragment = new St();
 
                 break;
         }
         return fragment;
+
 
     }
 
@@ -55,6 +67,6 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     @Override
     public int getCount() {
         // Show 2 total pages.
-        return 2;
+        return 3;
     }
 }
