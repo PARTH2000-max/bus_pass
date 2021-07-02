@@ -13,11 +13,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BusPass"
-        android:usesCleartextTraffic="true">
+        android:usesCleartextTraffic="true"
+        tools:ignore="UnusedAttribute"
+        android:largeHeap="true"
+        >
         <activity
             android:name="tabpackage.Timetable"
             android:label="@string/title_activity_timetable"
-            android:theme="@style/Theme.BusPass.NoActionBar"></activity>
+            android:theme="@style/Theme.BusPass.NoActionBar" />
         <activity
             android:name=".tab_activity"
             android:label="@string/title_activity_tab"

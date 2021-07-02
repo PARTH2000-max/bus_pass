@@ -41,23 +41,33 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="@drawable/redbus3"></ImageView>
+            <!--<application
+                android:allowBackup="true"
+                android:hardwareAccelerated="false"
+                android:icon="@mipmap/ic_launcher"
+                android:label="@string/app_name"
+                android:largeHeap="true"
+                android:supportsRtl="true"
+                />-->
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="@drawable/redbus"></ImageView>
+                android:background="@drawable/st" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="@drawable/redbus3"></ImageView>
+                android:background="@drawable/brts"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/amts" />
         </ViewFlipper>
 
         <ImageView
@@ -69,7 +79,8 @@
             android:layout_marginTop="3dp"
             android:src="@drawable/star"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/viewFlipper" />
+            app:layout_constraintTop_toBottomOf="@+id/viewFlipper"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/txt_safety"
@@ -84,6 +95,8 @@
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/img_safety"
             app:layout_constraintTop_toBottomOf="@+id/viewFlipper" />
+
+
 
         <RelativeLayout
             android:id="@+id/relativeLayout"
