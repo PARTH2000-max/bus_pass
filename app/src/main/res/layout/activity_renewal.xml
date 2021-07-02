@@ -98,17 +98,16 @@
                             android:layout_marginTop="20dp"
                             android:text="Select Date"
                             android:textColor="#000"
-                            android:textSize="15dp">
-                        </TextView>
+                            android:textSize="15dp"></TextView>
 
                         <EditText
+                            android:id="@+id/dateview"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/dateview"
-                            android:text="choose date"
-                            android:focusable="false"
                             android:layout_marginTop="10dp"
-                            android:inputType="none"></EditText>
+                            android:focusable="false"
+                            android:inputType="none"
+                            android:text="choose date"></EditText>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -116,8 +115,7 @@
                             android:layout_marginTop="20dp"
                             android:text="Adhare No"
                             android:textColor="#000"
-                            android:textSize="15dp">
-                        </TextView>
+                            android:textSize="15dp"></TextView>
 
                         <EditText
                             android:id="@+id/proname"
@@ -129,16 +127,16 @@
                             android:drawableLeft="@drawable/ic_person"
                             android:drawablePadding="12dp"
                             android:ems="10"
-                            android:text="123456789012"
-                            android:hint="Name"
                             android:enabled="false"
                             android:focusable="false"
+                            android:hint="Name"
                             android:inputType="text"
                             android:paddingStart="12dp"
                             android:paddingLeft="20dp"
                             android:paddingTop="10dp"
                             android:paddingEnd="12dp"
-                            android:paddingBottom="10dp" />
+                            android:paddingBottom="10dp"
+                            android:text="123456789012" />
 
 
                         <TextView
@@ -328,16 +326,16 @@
                             android:drawableLeft="@drawable/ic_home"
                             android:drawablePadding="12dp"
                             android:ems="10"
-                            android:hint="Name"
                             android:enabled="false"
                             android:focusable="false"
-                            android:text="GLS UNIVERSITY"
+                            android:hint="Name"
                             android:inputType="number"
                             android:paddingStart="12dp"
                             android:paddingLeft="20dp"
                             android:paddingTop="10dp"
                             android:paddingEnd="12dp"
-                            android:paddingBottom="10dp" />
+                            android:paddingBottom="10dp"
+                            android:text="GLS UNIVERSITY" />
 
 
                         <TextView
@@ -358,16 +356,16 @@
                             android:drawableLeft="@drawable/ic_attach_file"
                             android:drawablePadding="12dp"
                             android:ems="10"
-                            android:hint="Form Upload"
                             android:enabled="false"
                             android:focusable="false"
-                            android:text="PANCHVATI"
+                            android:hint="Form Upload"
                             android:inputType="text"
                             android:paddingStart="12dp"
                             android:paddingLeft="20dp"
                             android:paddingTop="10dp"
                             android:paddingEnd="12dp"
-                            android:paddingBottom="10dp" />
+                            android:paddingBottom="10dp"
+                            android:text="PANCHVATI" />
 
 
                         <!--     <TextView
@@ -404,6 +402,7 @@
                             android:layout_marginTop="20dp"
                             android:background="@drawable/button_bg"
                             android:text="Submit"
+                            android:textColor="@color/white"
                             android:textAllCaps="false"
                             android:textSize="16sp"
                             android:textStyle="bold" />
