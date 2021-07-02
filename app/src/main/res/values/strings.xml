@@ -69,5 +69,6 @@
     <string name="tab_second_3">tab3</string>
     <string name="title_activity_timetable">time_table</string>
     <string name="title_activity_tab">tab</string>
+    <string name="time_table">Time Table</string>
 
 </resources>
