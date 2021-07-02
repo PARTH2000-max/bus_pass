@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
                     }
                 });
 
-        loadFragment(new ProfileFragment());
+        loadFragment(new HomeFragment());
 
         drawerLayout = findViewById(R.id.container);
         navigationView = findViewById(R.id.nav_view);
