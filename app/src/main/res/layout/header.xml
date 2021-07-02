@@ -24,19 +24,19 @@
        android:fontFamily="serif"
         android:text="Parth"
         android:textColor="#FFFFFF"
-        android:textSize="25dp">
+        android:textSize="20dp">
 
     </TextView>
 
     <TextView
         android:id="@+id/et2"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:fontFamily="serif"
         android:text="nagarparth83@gmail.com"
         android:textColor="#FFFFFF"
-        android:textSize="25dp">
+        android:textSize="15dp">
 
     </TextView>
 

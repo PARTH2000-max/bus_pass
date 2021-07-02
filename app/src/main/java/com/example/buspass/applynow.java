@@ -40,7 +40,13 @@ public class applynow extends AppCompatActivity {
 
                 DatePickerDialog datePickerDialog = new DatePickerDialog(applynow.this,onDateSetListener,year,month,day);
 
+                datePickerDialog.getDatePicker().setMinDate(System.currentTimeMillis() - 1000);
+
+
                 datePickerDialog.show();
+
+
+
             }
         });
 
@@ -53,6 +59,10 @@ public class applynow extends AppCompatActivity {
 
                 editText1.setText(date);
             }
+
+
         };
+
     }
-    }
+
+}

@@ -21,6 +21,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.buspass.modelresponse.DeleteResponse;
 import com.example.buspass.modelresponse.LoginResponse;
+import com.google.android.material.tabs.TabItem;
 import com.google.android.material.textfield.TextInputEditText;
 
 import org.jetbrains.annotations.NotNull;
@@ -154,7 +155,7 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
     private void logoutUser() {
 
         sharedPrefManager.logout();
-        Intent intent=new Intent(getActivity(),LoginActivity.class);
+        Intent intent=new Intent(getActivity(), TabItem.class);
 
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
 

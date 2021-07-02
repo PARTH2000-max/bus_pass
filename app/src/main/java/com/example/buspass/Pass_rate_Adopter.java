@@ -1,6 +1,7 @@
 package com.example.buspass;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -38,6 +39,13 @@ public class Pass_rate_Adopter extends RecyclerView.Adapter<Pass_rate_Adopter.Vi
         PassRate_Model model= Passrate_model_list.get(position);
         holder.Bus_name.setText(model.getBus_Name());
         holder.Bus_image.setImageResource(model.getBus_Image());
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(context,RateList.class);
+                context.startActivity(intent);
+            }
+        });
 
     }
 

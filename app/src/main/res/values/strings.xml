@@ -61,5 +61,13 @@
     <string name="title_activity_main2">MainActivity2</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
+    <string name="Name">Name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="tab_second_1">tab</string>
+    <string name="tab_second_2">Tab2</string>
+    <string name="tab_second_3">tab3</string>
+    <string name="title_activity_timetable">time_table</string>
+    <string name="title_activity_tab">tab</string>
 
 </resources>
